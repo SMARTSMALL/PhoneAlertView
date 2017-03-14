@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F552C1041E778C150009535A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1031E778C150009535A /* main.m */; };
+		F552C1071E778C150009535A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1061E778C150009535A /* AppDelegate.m */; };
+		F552C10A1E778C150009535A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1091E778C150009535A /* ViewController.m */; };
+		F552C10D1E778C150009535A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F552C10B1E778C150009535A /* Main.storyboard */; };
+		F552C10F1E778C150009535A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F552C10E1E778C150009535A /* Assets.xcassets */; };
+		F552C1121E778C150009535A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F552C1101E778C150009535A /* LaunchScreen.storyboard */; };
+		F552C11D1E778C150009535A /* PhoneAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C11C1E778C150009535A /* PhoneAlertViewTests.m */; };
+		F552C1281E778C160009535A /* PhoneAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1271E778C160009535A /* PhoneAlertViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F552C1191E778C150009535A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F552C0F71E778C150009535A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F552C0FE1E778C150009535A;
+			remoteInfo = PhoneAlertView;
+		};
+		F552C1241E778C160009535A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F552C0F71E778C150009535A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F552C0FE1E778C150009535A;
+			remoteInfo = PhoneAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F552C0FF1E778C150009535A /* PhoneAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552C1031E778C150009535A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F552C1051E778C150009535A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F552C1061E778C150009535A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F552C1081E778C150009535A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F552C1091E778C150009535A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F552C10C1E778C150009535A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F552C10E1E778C150009535A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F552C1111E778C150009535A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F552C1131E778C150009535A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F552C1181E778C150009535A /* PhoneAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552C11C1E778C150009535A /* PhoneAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneAlertViewTests.m; sourceTree = "<group>"; };
+		F552C11E1E778C150009535A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F552C1231E778C160009535A /* PhoneAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F552C1271E778C160009535A /* PhoneAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneAlertViewUITests.m; sourceTree = "<group>"; };
+		F552C1291E778C160009535A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F552C0FC1E778C150009535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C1151E778C150009535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C1201E778C160009535A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F552C0F61E778C150009535A = {
+			isa = PBXGroup;
+			children = (
+				F552C1011E778C150009535A /* PhoneAlertView */,
+				F552C11B1E778C150009535A /* PhoneAlertViewTests */,
+				F552C1261E778C160009535A /* PhoneAlertViewUITests */,
+				F552C1001E778C150009535A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F552C1001E778C150009535A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F552C0FF1E778C150009535A /* PhoneAlertView.app */,
+				F552C1181E778C150009535A /* PhoneAlertViewTests.xctest */,
+				F552C1231E778C160009535A /* PhoneAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F552C1011E778C150009535A /* PhoneAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F552C1051E778C150009535A /* AppDelegate.h */,
+				F552C1061E778C150009535A /* AppDelegate.m */,
+				F552C1081E778C150009535A /* ViewController.h */,
+				F552C1091E778C150009535A /* ViewController.m */,
+				F552C10B1E778C150009535A /* Main.storyboard */,
+				F552C10E1E778C150009535A /* Assets.xcassets */,
+				F552C1101E778C150009535A /* LaunchScreen.storyboard */,
+				F552C1131E778C150009535A /* Info.plist */,
+				F552C1021E778C150009535A /* Supporting Files */,
+			);
+			path = PhoneAlertView;
+			sourceTree = "<group>";
+		};
+		F552C1021E778C150009535A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F552C1031E778C150009535A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F552C11B1E778C150009535A /* PhoneAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F552C11C1E778C150009535A /* PhoneAlertViewTests.m */,
+				F552C11E1E778C150009535A /* Info.plist */,
+			);
+			path = PhoneAlertViewTests;
+			sourceTree = "<group>";
+		};
+		F552C1261E778C160009535A /* PhoneAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F552C1271E778C160009535A /* PhoneAlertViewUITests.m */,
+				F552C1291E778C160009535A /* Info.plist */,
+			);
+			path = PhoneAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F552C0FE1E778C150009535A /* PhoneAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552C12C1E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertView" */;
+			buildPhases = (
+				F552C0FB1E778C150009535A /* Sources */,
+				F552C0FC1E778C150009535A /* Frameworks */,
+				F552C0FD1E778C150009535A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAlertView;
+			productName = PhoneAlertView;
+			productReference = F552C0FF1E778C150009535A /* PhoneAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F552C1171E778C150009535A /* PhoneAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552C12F1E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertViewTests" */;
+			buildPhases = (
+				F552C1141E778C150009535A /* Sources */,
+				F552C1151E778C150009535A /* Frameworks */,
+				F552C1161E778C150009535A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F552C11A1E778C150009535A /* PBXTargetDependency */,
+			);
+			name = PhoneAlertViewTests;
+			productName = PhoneAlertViewTests;
+			productReference = F552C1181E778C150009535A /* PhoneAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F552C1221E778C160009535A /* PhoneAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F552C1321E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertViewUITests" */;
+			buildPhases = (
+				F552C11F1E778C160009535A /* Sources */,
+				F552C1201E778C160009535A /* Frameworks */,
+				F552C1211E778C160009535A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F552C1251E778C160009535A /* PBXTargetDependency */,
+			);
+			name = PhoneAlertViewUITests;
+			productName = PhoneAlertViewUITests;
+			productReference = F552C1231E778C160009535A /* PhoneAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F552C0F71E778C150009535A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "goldeneye by smart-small";
+				TargetAttributes = {
+					F552C0FE1E778C150009535A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9C5A22C422;
+						ProvisioningStyle = Automatic;
+					};
+					F552C1171E778C150009535A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9C5A22C422;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F552C0FE1E778C150009535A;
+					};
+					F552C1221E778C160009535A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9C5A22C422;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F552C0FE1E778C150009535A;
+					};
+				};
+			};
+			buildConfigurationList = F552C0FA1E778C150009535A /* Build configuration list for PBXProject "PhoneAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F552C0F61E778C150009535A;
+			productRefGroup = F552C1001E778C150009535A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F552C0FE1E778C150009535A /* PhoneAlertView */,
+				F552C1171E778C150009535A /* PhoneAlertViewTests */,
+				F552C1221E778C160009535A /* PhoneAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F552C0FD1E778C150009535A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552C1121E778C150009535A /* LaunchScreen.storyboard in Resources */,
+				F552C10F1E778C150009535A /* Assets.xcassets in Resources */,
+				F552C10D1E778C150009535A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C1161E778C150009535A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C1211E778C160009535A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F552C0FB1E778C150009535A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552C10A1E778C150009535A /* ViewController.m in Sources */,
+				F552C1071E778C150009535A /* AppDelegate.m in Sources */,
+				F552C1041E778C150009535A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C1141E778C150009535A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552C11D1E778C150009535A /* PhoneAlertViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F552C11F1E778C160009535A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F552C1281E778C160009535A /* PhoneAlertViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F552C11A1E778C150009535A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F552C0FE1E778C150009535A /* PhoneAlertView */;
+			targetProxy = F552C1191E778C150009535A /* PBXContainerItemProxy */;
+		};
+		F552C1251E778C160009535A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F552C0FE1E778C150009535A /* PhoneAlertView */;
+			targetProxy = F552C1241E778C160009535A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F552C10B1E778C150009535A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F552C10C1E778C150009535A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F552C1101E778C150009535A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F552C1111E778C150009535A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F552C12A1E778C160009535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F552C12B1E778C160009535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F552C12D1E778C160009535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = PhoneAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.PhoneAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F552C12E1E778C160009535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = PhoneAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.PhoneAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F552C1301E778C160009535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = PhoneAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.PhoneAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneAlertView.app/PhoneAlertView";
+			};
+			name = Debug;
+		};
+		F552C1311E778C160009535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = PhoneAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.PhoneAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoneAlertView.app/PhoneAlertView";
+			};
+			name = Release;
+		};
+		F552C1331E778C160009535A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = PhoneAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.PhoneAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneAlertView;
+			};
+			name = Debug;
+		};
+		F552C1341E778C160009535A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = PhoneAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.PhoneAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PhoneAlertView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F552C0FA1E778C150009535A /* Build configuration list for PBXProject "PhoneAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552C12A1E778C160009535A /* Debug */,
+				F552C12B1E778C160009535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F552C12C1E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552C12D1E778C160009535A /* Debug */,
+				F552C12E1E778C160009535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F552C12F1E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552C1301E778C160009535A /* Debug */,
+				F552C1311E778C160009535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F552C1321E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F552C1331E778C160009535A /* Debug */,
+				F552C1341E778C160009535A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F552C0F71E778C150009535A /* Project object */;
+}
