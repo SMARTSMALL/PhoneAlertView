@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F51E9D4B1E7A350B006170C2 /* LZOrderRunAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F51E9D4A1E7A350B006170C2 /* LZOrderRunAlertView.m */; };
 		F552C1041E778C150009535A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1031E778C150009535A /* main.m */; };
 		F552C1071E778C150009535A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1061E778C150009535A /* AppDelegate.m */; };
 		F552C10A1E778C150009535A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1091E778C150009535A /* ViewController.m */; };
@@ -15,6 +16,17 @@
 		F552C1121E778C150009535A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F552C1101E778C150009535A /* LaunchScreen.storyboard */; };
 		F552C11D1E778C150009535A /* PhoneAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C11C1E778C150009535A /* PhoneAlertViewTests.m */; };
 		F552C1281E778C160009535A /* PhoneAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1271E778C160009535A /* PhoneAlertViewUITests.m */; };
+		F552C1371E778C6A0009535A /* LZPhoneAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1361E778C6A0009535A /* LZPhoneAlertView.m */; };
+		F552C1611E77DFDC0009535A /* ChangeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1541E77DFDC0009535A /* ChangeColor.m */; };
+		F552C1621E77DFDC0009535A /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F552C1551E77DFDC0009535A /* location@2x.png */; };
+		F552C1631E77DFDC0009535A /* LZOrderAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1581E77DFDC0009535A /* LZOrderAlertView.m */; };
+		F552C1641E77DFDC0009535A /* LZOrderCarFinishedAllView.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C15A1E77DFDC0009535A /* LZOrderCarFinishedAllView.m */; };
+		F552C1651E77DFDC0009535A /* LZOrderCarOnceFinishedView.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C15C1E77DFDC0009535A /* LZOrderCarOnceFinishedView.m */; };
+		F552C1661E77DFDC0009535A /* LZOrderFinishedAllView.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C15E1E77DFDC0009535A /* LZOrderFinishedAllView.m */; };
+		F552C1671E77DFDC0009535A /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C1601E77DFDC0009535A /* UIColor+Hex.m */; };
+		F552C1801E77EB0F0009535A /* ZoomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F552C17F1E77EB0F0009535A /* ZoomImage.m */; };
+		F552C1841E77EDFC0009535A /* textimage.png in Resources */ = {isa = PBXBuildFile; fileRef = F552C1831E77EDFC0009535A /* textimage.png */; };
+		F552C1861E77EFA80009535A /* delete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F552C1851E77EFA80009535A /* delete@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F51E9D491E7A350B006170C2 /* LZOrderRunAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrderRunAlertView.h; sourceTree = "<group>"; };
+		F51E9D4A1E7A350B006170C2 /* LZOrderRunAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOrderRunAlertView.m; sourceTree = "<group>"; };
 		F552C0FF1E778C150009535A /* PhoneAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F552C1031E778C150009535A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F552C1051E778C150009535A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,26 @@
 		F552C1231E778C160009535A /* PhoneAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F552C1271E778C160009535A /* PhoneAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneAlertViewUITests.m; sourceTree = "<group>"; };
 		F552C1291E778C160009535A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F552C1351E778C6A0009535A /* LZPhoneAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZPhoneAlertView.h; sourceTree = "<group>"; };
+		F552C1361E778C6A0009535A /* LZPhoneAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZPhoneAlertView.m; sourceTree = "<group>"; };
+		F552C1531E77DFDC0009535A /* ChangeColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeColor.h; sourceTree = "<group>"; };
+		F552C1541E77DFDC0009535A /* ChangeColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeColor.m; sourceTree = "<group>"; };
+		F552C1551E77DFDC0009535A /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		F552C1561E77DFDC0009535A /* LZOrderAlertDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrderAlertDefine.h; sourceTree = "<group>"; };
+		F552C1571E77DFDC0009535A /* LZOrderAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrderAlertView.h; sourceTree = "<group>"; };
+		F552C1581E77DFDC0009535A /* LZOrderAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOrderAlertView.m; sourceTree = "<group>"; };
+		F552C1591E77DFDC0009535A /* LZOrderCarFinishedAllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrderCarFinishedAllView.h; sourceTree = "<group>"; };
+		F552C15A1E77DFDC0009535A /* LZOrderCarFinishedAllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOrderCarFinishedAllView.m; sourceTree = "<group>"; };
+		F552C15B1E77DFDC0009535A /* LZOrderCarOnceFinishedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrderCarOnceFinishedView.h; sourceTree = "<group>"; };
+		F552C15C1E77DFDC0009535A /* LZOrderCarOnceFinishedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOrderCarOnceFinishedView.m; sourceTree = "<group>"; };
+		F552C15D1E77DFDC0009535A /* LZOrderFinishedAllView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LZOrderFinishedAllView.h; sourceTree = "<group>"; };
+		F552C15E1E77DFDC0009535A /* LZOrderFinishedAllView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LZOrderFinishedAllView.m; sourceTree = "<group>"; };
+		F552C15F1E77DFDC0009535A /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F552C1601E77DFDC0009535A /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F552C17E1E77EB0F0009535A /* ZoomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomImage.h; sourceTree = "<group>"; };
+		F552C17F1E77EB0F0009535A /* ZoomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomImage.m; sourceTree = "<group>"; };
+		F552C1831E77EDFC0009535A /* textimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textimage.png; sourceTree = "<group>"; };
+		F552C1851E77EFA80009535A /* delete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "delete@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +144,8 @@
 				F552C1101E778C150009535A /* LaunchScreen.storyboard */,
 				F552C1131E778C150009535A /* Info.plist */,
 				F552C1021E778C150009535A /* Supporting Files */,
+				F552C1351E778C6A0009535A /* LZPhoneAlertView.h */,
+				F552C1361E778C6A0009535A /* LZPhoneAlertView.m */,
 			);
 			path = PhoneAlertView;
 			sourceTree = "<group>";
@@ -117,6 +153,8 @@
 		F552C1021E778C150009535A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F552C17D1E77E8960009535A /* ZoomImage(图片放大) */,
+				F552C1521E77DF6E0009535A /* OrderAlertView */,
 				F552C1031E778C150009535A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +176,40 @@
 				F552C1291E778C160009535A /* Info.plist */,
 			);
 			path = PhoneAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		F552C1521E77DF6E0009535A /* OrderAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				F552C1531E77DFDC0009535A /* ChangeColor.h */,
+				F552C1541E77DFDC0009535A /* ChangeColor.m */,
+				F552C1551E77DFDC0009535A /* location@2x.png */,
+				F552C1561E77DFDC0009535A /* LZOrderAlertDefine.h */,
+				F552C1571E77DFDC0009535A /* LZOrderAlertView.h */,
+				F552C1581E77DFDC0009535A /* LZOrderAlertView.m */,
+				F552C1591E77DFDC0009535A /* LZOrderCarFinishedAllView.h */,
+				F552C15A1E77DFDC0009535A /* LZOrderCarFinishedAllView.m */,
+				F552C15B1E77DFDC0009535A /* LZOrderCarOnceFinishedView.h */,
+				F552C15C1E77DFDC0009535A /* LZOrderCarOnceFinishedView.m */,
+				F552C15D1E77DFDC0009535A /* LZOrderFinishedAllView.h */,
+				F552C15E1E77DFDC0009535A /* LZOrderFinishedAllView.m */,
+				F552C15F1E77DFDC0009535A /* UIColor+Hex.h */,
+				F552C1601E77DFDC0009535A /* UIColor+Hex.m */,
+				F51E9D491E7A350B006170C2 /* LZOrderRunAlertView.h */,
+				F51E9D4A1E7A350B006170C2 /* LZOrderRunAlertView.m */,
+			);
+			path = OrderAlertView;
+			sourceTree = "<group>";
+		};
+		F552C17D1E77E8960009535A /* ZoomImage(图片放大) */ = {
+			isa = PBXGroup;
+			children = (
+				F552C1851E77EFA80009535A /* delete@2x.png */,
+				F552C1831E77EDFC0009535A /* textimage.png */,
+				F552C17E1E77EB0F0009535A /* ZoomImage.h */,
+				F552C17F1E77EB0F0009535A /* ZoomImage.m */,
+			);
+			path = "ZoomImage(图片放大)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +274,7 @@
 		F552C0F71E778C150009535A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LZ;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "goldeneye by smart-small";
 				TargetAttributes = {
@@ -250,8 +323,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F552C1121E778C150009535A /* LaunchScreen.storyboard in Resources */,
+				F552C1861E77EFA80009535A /* delete@2x.png in Resources */,
+				F552C1621E77DFDC0009535A /* location@2x.png in Resources */,
 				F552C10F1E778C150009535A /* Assets.xcassets in Resources */,
 				F552C10D1E778C150009535A /* Main.storyboard in Resources */,
+				F552C1841E77EDFC0009535A /* textimage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +352,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F552C1611E77DFDC0009535A /* ChangeColor.m in Sources */,
+				F552C1671E77DFDC0009535A /* UIColor+Hex.m in Sources */,
+				F552C1651E77DFDC0009535A /* LZOrderCarOnceFinishedView.m in Sources */,
+				F552C1371E778C6A0009535A /* LZPhoneAlertView.m in Sources */,
 				F552C10A1E778C150009535A /* ViewController.m in Sources */,
+				F552C1661E77DFDC0009535A /* LZOrderFinishedAllView.m in Sources */,
+				F51E9D4B1E7A350B006170C2 /* LZOrderRunAlertView.m in Sources */,
 				F552C1071E778C150009535A /* AppDelegate.m in Sources */,
+				F552C1641E77DFDC0009535A /* LZOrderCarFinishedAllView.m in Sources */,
+				F552C1631E77DFDC0009535A /* LZOrderAlertView.m in Sources */,
+				F552C1801E77EB0F0009535A /* ZoomImage.m in Sources */,
 				F552C1041E778C150009535A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +601,7 @@
 				F552C12E1E778C160009535A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F552C12F1E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +610,7 @@
 				F552C1311E778C160009535A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F552C1321E778C160009535A /* Build configuration list for PBXNativeTarget "PhoneAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +619,7 @@
 				F552C1341E778C160009535A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
